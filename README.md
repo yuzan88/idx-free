@@ -8,8 +8,7 @@
 ---
 ## 运行命令
 ```
-wget https://raw.githubusercontent.com/byJoey/idx-free/refs/heads/main/install.sh
-bash install.sh
+bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/install.sh)
 ```
 ## vps或者软路由安装火狐
 ```
