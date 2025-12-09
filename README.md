@@ -9,6 +9,7 @@
 ## 运行命令
 ```
 bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/install.sh)
+bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/usinstall.sh)
 bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/streamlit.sh)
 ```
 ## vps或者软路由安装火狐
