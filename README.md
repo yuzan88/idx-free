@@ -12,6 +12,7 @@ bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/twinstal
 bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/usinstall.sh)
 bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/nlinstall.sh)
 bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/benlinstall.sh)
+bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/clnlinstall.sh)
 bash <(curl -sL https://raw.githubusercontent.com/yuzan88/idx-free/main/streamlit.sh)
 ```
 ## vps或者软路由安装火狐
