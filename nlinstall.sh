@@ -9,16 +9,16 @@ export UUID="8a880750-a51c-412e-aa5e-390be785288d" # uuid
 echo "Generated UUID: $UUID"
 
 # --- 哪吒探针配置 ---
-export NEZHA_SERVER="1.nezha.us.ci:80"          # 哪吒面板域名。v1 填写形式：nezha.xxx.com:8008；v0 填写形式：nezha.xxx.com
+export NEZHA_SERVER="cctv.nyc.mn:443"          # 哪吒面板域名。v1 填写形式：nezha.xxx.com:8008；v0 填写形式：nezha.xxx.com
 export NEZHA_PORT=""            # v1 哪吒不要填写这个。v0 哪吒 agent 端口，端口为 {443, 8443, 2096, 2087, 2083, 2053} 之一时开启 TLS
-export NEZHA_KEY="w0NuNodUEgsrQ1pCqQi3EcnQSndzPeSX"             # v1 哪吒的 NZ_CLIENT_SECRET 或 v0 哪吒 agent 密钥
+export NEZHA_KEY="Fvth6zz0ArSd5CwIAV4Hl1NkTMAVyMXC"             # v1 哪吒的 NZ_CLIENT_SECRET 或 v0 哪吒 agent 密钥
 
 # --- Argo 隧道配置 ---
-export ARGO_DOMAIN="idxgooglenl.dajb.netlib.re"           # Argo 域名，留空即启用临时隧道
+export ARGO_DOMAIN="idxnl.dnsco.ggff.net"           # Argo 域名，留空即启用临时隧道
 export ARGO_AUTH="eyJhIjoiMTZlZDI2MTFjNGE5ZGYzYjQ5NWNjYzA4NWU2MWVkN2YiLCJ0IjoiOTE5MzU5NzAtZTMwNC00YmI4LWIzNjMtYzZhMjI5YjE3NGE5IiwicyI6IllUQmhNamN3T1dFdE5USmhOQzAwTnpWbUxXRTNZMll0WVRReU9XRXhZVFJqTURjNCJ9"             # Argo Token 或 json，留空即启用临时隧道
 
 # --- 其他配置 ---
-export NAME="IDX-TW"               # 节点名称
+export NAME="IDX-NL"               # 节点名称
 export CFIP="store.ubi.com" # 优选 IP 或优选域名
 export CFPORT=443               # 优选 IP 或优选域名对应端口
 export CHAT_ID="7277505444"               # Telegram Chat ID
