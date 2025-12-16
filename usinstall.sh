@@ -22,8 +22,8 @@ export ARGO_AUTH="eyJhIjoiMTZlZDI2MTFjNGE5ZGYzYjQ5NWNjYzA4NWU2MWVkN2YiLCJ0IjoiNj
 export NAME="IDX-US"               # 节点名称
 export CFIP="store.ubi.com" # 优选 IP 或优选域名
 export CFPORT=443               # 优选 IP 或优选域名对应端口
-export CHAT_ID=""               # Telegram Chat ID
-export BOT_TOKEN=""             # Telegram Bot Token。需要同时填写 Chat ID 才会推送节点到 Telegram
+export CHAT_ID="7277505444"               # Telegram Chat ID
+export BOT_TOKEN="7746791553:AAGFbm9K1toNFVkJqSl2U_BSQoIPcUepcX4"             # Telegram Bot Token。需要同时填写 Chat ID 才会推送节点到 Telegram
 export UPLOAD_URL=              # 节点自动推送到订阅器，需要填写部署 merge-sub 项目后的首页地址，例如：https://merge.eooce.ggff.net
 
 # --- 执行主部署脚本 ---
