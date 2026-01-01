@@ -9,9 +9,9 @@ export UUID="ee6c3e06-1f8e-4e5d-a94c-a8851e641fe1" # uuid
 echo "Generated UUID: $UUID"
 
 # --- 哪吒探针配置 ---
-export NEZHA_SERVER="cctv.nyc.mn:443"          # 哪吒面板域名。v1 填写形式：nezha.xxx.com:8008；v0 填写形式：nezha.xxx.com
+export NEZHA_SERVER="no.us.ci:443"          # 哪吒面板域名。v1 填写形式：nezha.xxx.com:8008；v0 填写形式：nezha.xxx.com
 export NEZHA_PORT=""            # v1 哪吒不要填写这个。v0 哪吒 agent 端口，端口为 {443, 8443, 2096, 2087, 2083, 2053} 之一时开启 TLS
-export NEZHA_KEY="6DlSFy5UbbuWGjwswY3hYFQQZlBaDc1p"             # v1 哪吒的 NZ_CLIENT_SECRET 或 v0 哪吒 agent 密钥
+export NEZHA_KEY="yp6buhIK4yc099xkQPVYShQOPOBoR9w8"             # v1 哪吒的 NZ_CLIENT_SECRET 或 v0 哪吒 agent 密钥
 
 # --- Argo 隧道配置 ---
 export ARGO_DOMAIN="be.dnsco.ggff.net"           # Argo 域名，留空即启用临时隧道
